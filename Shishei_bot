@@ -1,5 +1,5 @@
 <?php
-$directory = 'users';
+$directory = '';
 $users = array_diff(scandir($directory), array('..', '.'));
 
 define('API_KEY','XXXXX');
